@@ -1,0 +1,125 @@
+body{
+    background-color:blueviolet;
+    margin: 0;
+}
+
+.github{
+    position: absolute;
+    top: 0;
+    border: 0;
+    right: 0;
+}
+.github img{
+    height: 50px;
+}
+
+.main{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    background-color:orange;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 3px #333230bf;
+    font-family: sans-serif;
+}
+
+.body-avatar{
+    padding: 0rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    padding-top: 2rem;
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topic{
+    color: blueviolet;
+    font-size: 35px;
+}
+
+.nameInput{
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+
+.button{
+    cursor: pointer;
+    background-color: blueviolet;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 7px;
+    box-shadow: 2.5px 2.5px 5px 1.5px #333230bf;
+}
+.button:hover{
+    background-color: wheat;
+}
+
+.insults{
+    color: blueviolet;
+    font-size: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.copyRights{
+    color: blueviolet;
+    font-size: 13px;
+}
+.save-reload{
+    display: flex;
+    width: 100%;
+}
+.download{
+    cursor: pointer;
+    height: 30px;
+}
+.reload{
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+    height: 30px;
+}
+
+.share{
+    cursor: pointer;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: blueviolet;
+    background-color: orange;
+    padding: 10px 35px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2.5px 2.5px 5px 1.5px #333230bf;
+}
+
