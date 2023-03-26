@@ -93,7 +93,7 @@ function hideElement(hide){
 
 button.addEventListener("click", () => {
     inputName = userName; 
-    if (inputName.value === "manoj","mano"){
+    if (inputName.value === "manoj"){
         Toastify({
             text: "Sorry, you can't insult the creator",
             duration: 3000,
